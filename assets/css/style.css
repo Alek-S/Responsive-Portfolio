@@ -167,4 +167,41 @@ button{
 }
 
 /*Mobile responsive resolutions*/
+@media screen and (max-width:980px){
+	#navElements{
+		width: 740px;
+	}
+	#content{
+		width: 740px;
+		margin: auto;
+	}
+	#main{
+		width: 400px;
+	}
+	#profilePic{
+		margin-bottom: 20px;
+		margin-left: 30px;
+		float: none;
+	}
+	p{
+		line-height: 175%;
+	}
+	.project{
+		margin-left: 30px;
+	}
+} 
+/*end of 980*/
+
+@media screen and (max-width:768px){
+
+} 
+/*end of 768*/
+
+@media screen and (max-width:640px){
+
+} 
+/*end of 640*/
+
+
+
 
