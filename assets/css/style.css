@@ -223,7 +223,44 @@ button{
 /*end of 768*/
 
 @media screen and (max-width:640px){
-
+	header, #navElements{
+		width: 100%;
+		height: 125px;
+		border-bottom: 1px solid #dddddd;
+	}
+	header h1{
+		width: 100%;
+		margin-left: 0;
+		text-align: center;
+	}
+	nav{
+		font-size: .9em;
+    	padding-top: 15px;
+    	width: 100%;
+	}
+	#about{
+		float: left;
+		width: 33.3%;
+		border: none;
+		text-align: center;
+	}
+	#portfolio{
+		float: left;
+		width: 33.3%;
+		border: none;
+		text-align: center;
+	}
+	#contact{
+		float: left;
+		width: 33.3%;
+		border: none;
+		text-align: center;
+	}
+	.project{
+		display: block;
+		margin: auto;
+		margin-bottom: 30px;
+	}
 } 
 /*end of 640*/
 
