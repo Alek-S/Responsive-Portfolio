@@ -56,12 +56,28 @@ h3{
 	margin-top: 10px;
 
 }
+
+/*navigation bar*/
 nav{
 	display: inline-block;
 	font-size: 1.2em;
 	float: right;
     padding-top: 30px;
 }
+#about{
+	border-right: 2px solid #777777;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+#portfolio{
+	border-right: 2px solid #777777;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+#contact{
+	padding-left: 10px;
+}
+/**/
 #content{
 	margin: auto;
 	width: 960px;
@@ -167,6 +183,8 @@ button{
 }
 
 /*Mobile responsive resolutions*/
+
+/*start of 980*/
 @media screen and (max-width:980px){
 	#navElements{
 		width: 740px;
@@ -192,6 +210,7 @@ button{
 } 
 /*end of 980*/
 
+/*start of 768*/
 @media screen and (max-width:768px){
 	#navElements{
 		width: 90%;
@@ -222,6 +241,7 @@ button{
 } 
 /*end of 768*/
 
+/*start of 640*/
 @media screen and (max-width:640px){
 	header, #navElements{
 		width: 100%;
@@ -243,18 +263,23 @@ button{
 		width: 33.3%;
 		border: none;
 		text-align: center;
+		padding-right: 0px;
+		padding-left: 0px;
 	}
 	#portfolio{
 		float: left;
 		width: 33.3%;
 		border: none;
 		text-align: center;
+		padding-right: 0px;
+		padding-left: 0px;
 	}
 	#contact{
 		float: left;
 		width: 33.3%;
 		border: none;
 		text-align: center;
+		padding-left: 0px;
 	}
 	.project{
 		display: block;
